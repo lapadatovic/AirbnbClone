@@ -1,0 +1,68 @@
+.card {
+    width: 175px;
+    font-size: 12px;
+    display: flex;
+    /* flex: 0 0 auto; */
+    flex-direction: column;
+    position: relative
+}
+
+.sold--out-badge {
+    position: absolute;
+    top:2px;
+    left: 2px;
+    background-color: #918e9b;
+    height: 20px;
+    width: 70px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card--image{
+    height: 235px;
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start
+}
+
+section {
+    padding: 10px;
+}
+
+.cards-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.card--price {
+    margin-top: auto;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--star {
+    height: 15px;
+}
+
+.gray {
+    color: #918e9b;
+}
+
+.bold {
+    font-weight: bold;
+}
